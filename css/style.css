@@ -1,0 +1,221 @@
+/*custom style sheet to make site less bootstrappy*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+ font-family: 'Exo 2', monospace !important; 
+}
+
+h1{
+	font-size: 70px;
+}
+
+h2 {
+	color: #FF2626;
+	font-size: 50px;
+	/*display: inline-block; */ /* April 24, 2014 - Chase Lee Edited*/
+}
+
+h3 {
+	color: #FF2626;
+	font-size: 3em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+	width: auto;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.navbar-toggle {
+	padding-top:0px !important; 
+	padding-bottom:0px !important; 
+	margin-top: 7px; margin-bottom: 7px; 
+	border-style: none;}
+
+.navbar-brand{
+	padding-top:3px !important; 
+	padding-bottom:0px !important;
+	color: #fff !important;
+}
+
+.navbar-nav > li > a{
+	padding-top:5px !important; 
+	padding-bottom:5px !important;
+}
+
+.navbar {
+  font-family: 'Exo 2', monospace;
+  min-height:30px !important;
+}
+
+.navbar-inverse {
+	border-color: #FF2626;
+}
+
+.navbar-fixed-top {
+	border-width: 1px 0px 0px 0px;
+}
+
+.jumbotron{
+	margin-top: 31px;
+	margin-bottom: 10px;
+	background: url("../pictures/robot1.jpg") no-repeat 0 0 scroll;
+	background-size: 175%;
+	overflow: hidden;
+}
+
+.jumbotron h1{
+	font-family: 'Exo 2', monospace;
+	color: #fff;
+	font-size: 90px;
+	margin-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+.jumbotron p{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding-right: 5px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+.container .jumbotron {
+	border-radius: 0px;
+}
+
+.jumboContent{
+	background: rgba(0, 0, 0, 0.75);
+	display: inline-block;
+}
+
+.btn-default{
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	border-width: 0px;
+}
+
+
+.col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-12{
+	margin-bottom: 10px;
+}
+
+.calendar{
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
+
+/*grid content div elements*/
+.content{
+	background-color: #fff;
+	border-color: #000;
+	border-style: solid;
+	border-width: 3px 0px 0px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-hackajam{
+	background-color: #fff;
+	border-color: #000;
+	border-style: solid;
+	border-width: 3px 0px 0px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-flourish{
+	border-color: #000;
+	border-style: solid;
+	border-width: 3px 0px 0px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-newbie{
+	border-color: #000;
+	border-style: solid;
+	border-width: 3px 0px 0px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*officers round image css code*/
+.description{
+	/*width: auto;
+	height: 70px;
+	position: relative; */
+	/* April 24, 2014 - Chase Lee Edited*/
+	display: inline-block;
+	height: 70px;
+	margin: 0.5em;
+	position: relative;
+	width: 230px;
+}
+
+.description .officer-img {
+	border-radius: 3em;
+	display: inline;
+	float: left;
+	margin-right: 0.5em;
+	width: 60px;
+	height: 60px;
+}
+.president{
+	width: 60px;
+	height: 60px;
+	background: url("../pictures/tony.jpg") no-repeat;
+	background-size: 100% ;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	float: left;
+	margin-right: 5px;
+	
+}
+
+.vicePresident{
+	width: 60px;
+	height: 60px;
+	background: url("../pictures/chase.jpg") no-repeat;
+	background-size: 100% ;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	float: left;
+	margin-right: 5px;
+}
+
+.treasurer{
+	width: 60px;
+	height: 60px;
+	background: url("../pictures/carlos.jpg") no-repeat;
+	background-size: 100% ;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	float: left;
+	margin-right: 5px;
+}
+
+.secretary{
+	width: 60px;
+	height: 60px;
+	background: url("../pictures/matt.jpg") no-repeat;
+	background-size: 100% ;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	float: left;
+	margin-right: 5px;
+}

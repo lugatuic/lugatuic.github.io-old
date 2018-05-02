@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    clee231 - Web Designer - Linux Users Group Vice-President 2013-2014
+
+# THANKS
+
+    aphelp6
+    corteg20
+    mdumfo2
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

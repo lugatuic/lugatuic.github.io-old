@@ -1,51 +1,190 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="description goes here" />
-    <meta name="keywords" content="keywords,goes,here" />
-    <meta name="author" content="Your Name" />
-    <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" type="text/css" href="default.css" />
-    <!--[if IE 6]>
-        <link rel="stylesheet" href="browserfix.css" type="text/css" />
-        <![endif]-->
-    <title>Events</title>
-  </head>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LUG Events</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Exo+2:600|Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
 
-  <body>
-    <div id="sidebar">
-      <h1>UIC LUG</h1>
-      <h2>Linux Users Group</h2>
+		<!--The top black fixed header would like to auto hide it some how-->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
 
-      <div id="menu">
-	      <ul><li class="webgen-menu-level1"><a href="contact.html">Contact Us</a></li><li class="webgen-menu-level1 webgen-menu-item-selected"><span>Events</span></li><li class="webgen-menu-level1"><a href="meetings.html">Meetings</a></li><li class="webgen-menu-level1"><a href="calendar.html">Calendar</a></li><li class="webgen-menu-level1"><a href="index.html">Welcome</a></li></ul>
-      </div>
+				<a href="index.html" class="navbar-brand">LUG@UIC <img src="pictures/whiteTux.png" width="25" height="25"></a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 
-      <h3>Links:</h3>
-      <ul>
-        <li><a href="http://acm.cs.uic.edu">UIC ACM</a></li>
-        <li><a href="http://acm.cs.uic.edu/uicwireless-linux">UIC Wireless on ubuntu</a></li>
-      </ul>
-    </div>
+				<!--Navbar menu links-->
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li class="active"><a href="#">EVENTS</a></li>
+						<li><a href="contactUs.html">CONTACT US</a></li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">LINKS<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<li><a href="https://acm.cs.uic.edu/">ACM</a></li>
+							<li><a href="http://www.cs.uic.edu/">DEPT OF CS</a></li>
+							<li><a href="http://acm.cs.uic.edu/uicwifi-linux">UIC WiFi in Linux</a></li>
+							<li><a href="http://lug.cs.uic.edu/wiki/">LUG Wiki</a>
+							</ul>	
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
 
-    <div id="content">
-      <h2 id="newbie-week">Newbie Week</h2>
-<p>A series of presentations designed to introduce inexperienced users to linux.</p>
+		<!--JUMBOOOO000OO0o0o0o0o0o0o0o0o0o0o0o0o0o0oOootron!-->
+		<div class="container">
+			<div class="jumbotron">
+				<div class="jumboContent"><h1>LUG</h1></div><br>
+				<div class="jumboContent"><p>For individuals interested in Linux, Unix, and byproducts.</p></div><br>
+				<a class="btn btn-default" href="contactUs.html#mail">Listserv Sign up?</a>			
+			</div>
+		</div>
 
-<p>Source for these presentations can be found on <a href="http://github.com/UIC-LUG/LUG-Newbie-Week">github</a>.</p>
+		<!--Grid system thing-->
+		<div class="container">
+			<div class="row">
+				<!--Newbie week stuff here-->
+				<div class="col-md-4">
+					<div class="content-newbie">
+						<h2>NEWBIE WEEK</h2>
+						<p>A series of presentations designed to introduce inexperienced users to linux.</p>
+						<p>Source for these presentations can be found on <a href="http://github.com/UIC-LUG/LUG-Newbie-Week">github</a>.</p>
+						<ul>
+						  <li><a href="http://acm.cs.uic.edu/sites/default/files/install_ubuntu.pdf">Installing Ubuntu</a></li>
+						  <li><a href="http://acm.cs.uic.edu/sites/default/files/remote_access.pdf">Remote Access</a></li>
+						  <li><a href="http://acm.cs.uic.edu/sites/default/files/linux_uic_1.pdf">Using Linux at UIC as a CS Student</a></li>
+						  <li><a href="http://lug.cs.uic.edu/code.pdf">Working with Code</a></li>
+						  <li><a href="http://acm.cs.uic.edu/sites/default/files/shell.pdf">The Shell</a></li>
+						</ul>
+					</div>
+				</div>
 
-<ul>
-  <li><a href="http://acm.cs.uic.edu/sites/default/files/install_ubuntu.pdf">Installing Ubuntu</a></li>
-  <li><a href="http://acm.cs.uic.edu/sites/default/files/remote_access.pdf">Remote Acess</a></li>
-  <li><a href="http://acm.cs.uic.edu/sites/default/files/linux_uic_1.pdf">Using Linux at UIC as a CS Student</a></li>
-  <li><a href="http://acm.cs.uic.edu/sites/default/files/code.pdf">Working with Code</a></li>
-  <li><a href="http://acm.cs.uic.edu/sites/default/files/shell.pdf">The Shell</a></li>
-</ul>
+				<!--Flourish info here-->
+				<div class="col-md-4">
+					<div class="content-flourish">
+						<h2>FLOURISH!</h2>
+						<p> Flourish is an annual open source conference held at UIC. You can find more information about it at <a href="http://flourishconf.com">their website</a>.</p>
+					</div>
+				</div>
+				<!--Hackajam stuff here-->
+				<div class="col-md-4">
+					<div class="content-hackajam">
+						<h2>HACKAJAM</h2>
+						<p>12 hours of creating an awesome game. Only one rule, the game has to last 30 seconds. Top winners will recieve some sweet prizes! Check it out at <a href="http://lug.cs.uic.edu/hackajam">the Hackajam site</a>.</p>
+					</div>
+				</div>
 
-<h2>Flourish</h2>
-<p> Flourish is an annual open source conference held at UIC. You can find more information about it at <a href="http://flourishconf.com">their website</a>.</p>
-    </div>
-  </body>
+			</div>
+		</div>
+
+		<!--footer goes here-->
+		<footer>
+			<img src="pictures/BlackTux.png" width="40" height="40">
+		</footer>
+
+		<!--javascript stuff and some jquerry to make things pretty-->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.jumbotron').mousemove(function(e){
+  					var mousePosX = (e.pageX/$(window).width())*100; 
+  					var mousePosY = (e.pageY/$(window).width())*100;
+  					$('.jumbotron').css('backgroundPosition-x', mousePosX+'%');
+  					$('.jumbotron').css('backgroundPosition-y', mousePosY+'%');
+				});
+
+				//I thought using js to make the changing background in the div would be easier than CSS, but I'm not sure anymore
+				//mouseenter for content divs makes background white and shows text
+				$('.content-newbie').mouseenter(function(e){
+					$('.content-newbie').css('background-size', '0');
+					$('.content-newbie h2').css('color','#FF2626');
+					$('.content-newbie h2').css('background','rgba(0, 0, 0, 0)');
+					$('.content-newbie p').css('color','#000');
+					$('.content-newbie a').css('color','#428bca');
+					$('.content-newbie ul').css('color','#000');
+				});
+
+				$('.content-flourish').mouseenter(function(e){
+					$('.content-flourish').css('background-size', '0');
+					$('.content-flourish h2').css('color','#FF2626');
+					$('.content-flourish h2').css('background','rgba(0, 0, 0, 0)');
+					$('.content-flourish p').css('color','#000');
+					$('.content-flourish a').css('color','#428bca');
+				});
+
+				$('.content-hackajam').mouseenter(function(e){
+					$('.content-hackajam').css('background-size', '0');
+					$('.content-hackajam h2').css('color','#FF2626');
+					$('.content-hackajam h2').css('background','rgba(0, 0, 0, 0)');
+					$('.content-hackajam p').css('color','#000');
+					$('.content-hackajam a').css('color','#428bca');
+				});
+
+				//mouseleave for content divs makes background picture and show white heading
+				$('.content-newbie').mouseleave(function(e){
+					$('.content-newbie').css('background-image', 'url("pictures/newbie.jpg")');
+					$('.content-newbie').css('background-size','170%');
+					$('.content-newbie h2').css('color','#fff');
+					$('.content-newbie h2').css('background','rgba(0, 0, 0, 0.75)');
+					$('.content-newbie p').css('color','transparent');
+					$('.content-newbie a').css('color','transparent');
+					$('.content-newbie ul').css('color','transparent');
+				});
+
+				$('.content-flourish').mouseleave(function(e){
+					$('.content-flourish').css('background-image', 'url("pictures/flourish2011.jpg")');
+					$('.content-flourish').css('background-size','170%');
+					$('.content-flourish h2').css('color','#fff');
+					$('.content-flourish h2').css('background','rgba(0, 0, 0, 0.75)');
+					$('.content-flourish p').css('color','transparent');
+					$('.content-flourish a').css('color','transparent');
+				});
+
+				$('.content-hackajam').mouseleave(function(e){
+					$('.content-hackajam').css('background-image', 'url("pictures/Flyer-focal.png")');
+					$('.content-hackajam').css('background-size','170%');
+					$('.content-hackajam h2').css('color','#fff');
+					$('.content-hackajam h2').css('background','rgba(0, 0, 0, 0.75)');
+					$('.content-hackajam p').css('color','transparent');
+					$('.content-hackajam a').css('color','transparent');
+				});
+
+				//this is to initiate things... i think...
+				$('.content-newbie').css('background-image', 'url("pictures/newbie.jpg")');
+				$('.content-newbie').css('background-size','170%');
+				$('.content-newbie h2').css('color','#fff');
+				$('.content-newbie h2').css('background','rgba(0, 0, 0, 0.75)');
+				$('.content-newbie p').css('color','transparent');
+				$('.content-newbie a').css('color','transparent');
+				$('.content-newbie ul').css('color','transparent');
+
+				$('.content-flourish').css('background-image', 'url("pictures/flourish2011.jpg")');
+				$('.content-flourish').css('background-size','170%');
+				$('.content-flourish h2').css('color','#fff');
+				$('.content-flourish h2').css('background','rgba(0, 0, 0, 0.75)');
+				$('.content-flourish p').css('color','transparent');
+				$('.content-flourish a').css('color','transparent');
+
+				$('.content-hackajam').css('background-image', 'url("pictures/Flyer-focal.png")');
+				$('.content-hackajam').css('background-size','170%');
+				$('.content-hackajam h2').css('color','#fff');
+				$('.content-hackajam h2').css('background','rgba(0, 0, 0, 0.75)');
+				$('.content-hackajam p').css('color','transparent');
+				$('.content-hackajam a').css('color','transparent');
+			});
+		</script>
+	</body>
 </html>

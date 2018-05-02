@@ -1,0 +1,99 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'VT323', cursive; 
+}
+h1 {
+  font-size: 6em;
+}
+h2 {
+  font-size: 4em;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.jumbotron {
+  /* text-shadow: 0 0 10px #fff; */
+}
+.jumbotron h1, .jumbotron p {
+  font-family: 'VT323', cursive;
+  color: #fff;
+  /* text-shadow: 1px 1px 5px #fff; */
+}
+.jumbotron a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #9E80BA;
+  font-family: 'VT323', cursive;
+}
+.navbar a {
+  color: #F58856;
+}
+
+.jumbotron {
+  background-image: url("../img/hackajam-banner-bg.png");
+}
+.navbar .navbar-nav>li {
+  font-size: 1.5em;
+}
+
+.navbar .navbar-brand {
+  font-size: 3em;
+}
+
+.dropdown-menu, .dropdown-header {
+  font-size: 0.8em;
+}
+.hackajamfocal {
+  background-image: url("../img/Flyer-focal.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 0;
+  margin-bottom: 0px !important;
+}
+
+.hackajamfocal .outer {
+  margin-top: 40em;
+  background-color: #fff;
+}
+
+.hackajamfocal footer {
+  padding-bottom: 3em;
+}
+
+.hackajamfocal .one-liners p {
+  font-size: large;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#days-sub {
+    left: 325px;
+    position: relative;
+}
+#hours-sub {
+    left: 440px;
+    position: relative;
+}
+#mins-sub {
+    left: 540px;
+    position: relative;
+}
+#secs-sub {
+    left: 635px;
+    position: relative;
+}
+
+
