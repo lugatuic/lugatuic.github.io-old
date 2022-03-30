@@ -32,5 +32,6 @@ jobs:
           
       - name: Make GH pages and push
         run: |
-          git push origin gh-pages
+          git checkout -b gh-pages
+          git push -ff origin gh-pages
           
